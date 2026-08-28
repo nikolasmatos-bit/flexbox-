@@ -15,7 +15,7 @@ body {
     height: 100vh;
 }
 
-.lugar {
+.item {
     position: absolute;
 
     width: 56px;
@@ -42,27 +42,25 @@ body {
     box-shadow: 0 3px 6px #0008;
 }
 
-/* Linha 1 */
 .l1  { left: 9px;   top: 9px; }
 .l2  { left: 73px;  top: 9px; }
 .l3  { left: 138px; top: 9px; }
 
-/* Linha 2 */
+
 .l4  { left: 442px; top: 83px; }
 .l5  { left: 507px; top: 83px; }
 .l6  { left: 571px; top: 83px; }
 
-/* Linha 3 */
 .l7  { right: 170px; top: 156px; }
 .l8  { right: 106px; top: 156px; }
 .l9  { right: 42px;  top: 156px; }
 
-/* Laterais */
+
 .l10 { left: 9px;   top: 230px; }
 .l11 { left: 507px; top: 230px; }
 .l12 { right: 42px; top: 230px; }
 
-/* Linha central */
+
 .l13 { left: 156px; top: 304px; }
 .l14 { left: 507px; top: 304px; }
 .l15 { right: 156px; top: 304px; }
@@ -71,22 +69,21 @@ body {
 .l17 { left: 507px; top: 377px; }
 .l18 { right: 230px; top: 377px; }
 
-/* Centro */
+
 .l19 { left: 442px; top: 451px; }
 .l20 { left: 507px; top: 451px; }
 .l21 { left: 571px; top: 451px; }
 
-/* Laterais */
+
 .l22 { right: 42px; top: 525px; }
 .l23 { left: 507px; top: 525px; }
 .l24 { left: 9px; top: 525px; }
 
-/* Parte inferior */
 .l25 { left: 156px; top: 599px; }
 .l26 { left: 507px; top: 599px; }
 .l27 { right: 156px; top: 599px; }
 
-/* Última linha */
+
 .l28 { left: 433px; top: 672px; }
 .l29 { left: 507px; top: 672px; }
 .l30 { left: 580px; top: 672px; }
