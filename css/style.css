@@ -5,115 +5,106 @@
 }
 
 body {
-    min-height: 100vh;
-    background: #0d162b;
-    font-family: Arial, sans-serif;
+    background-color: #111827;
+    font-family: Arial;
 }
 
-main {
-    min-height: 90vh;
-    padding: 10px;
-}
-
-/* Todas as linhas */
 .linha {
     display: flex;
-    width: 100%;
-    height: 70px;
-    margin-bottom: 5px;
+    height: 65px;
 }
 
 /* Cubos */
+
 .cubo {
-    width: 56px;
-    height: 56px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+
+    background-color: #2196f3;
+    color: white;
 
     display: flex;
     align-items: center;
     justify-content: center;
-
-    margin: 4px;
-
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-
-    background: linear-gradient(135deg, #2196f3, #ef6cdd);
-
-    border-radius: 6px;
-    box-shadow: 0 2px 5px #000;
 }
 
 
-/* 1 - esquerda */
+/* Linha 1 - esquerda */
+
 .linha1 {
     justify-content: flex-start;
 }
 
-/* 2 - centro */
+
+/* Linha 2 - centro */
+
 .linha2 {
     justify-content: center;
 }
 
-/* 3 - direita */
+
+/* Linha 3 - direita */
+
 .linha3 {
     justify-content: flex-end;
 }
 
-/* 4 - espaço entre */
+
+/* Linha 4 - separados */
+
 .linha4 {
     justify-content: space-between;
 }
 
-/* 5 - espaço ao redor */
+
+/* Linha 5 */
+
 .linha5 {
     justify-content: space-around;
 }
 
-/* 6 - espaço uniforme */
+
+/* Linha 6 */
+
 .linha6 {
     justify-content: space-evenly;
 }
 
-/* 7 - centralizado verticalmente */
+
+/* Linha 7 */
+
 .linha7 {
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-/* 8 - topo */
+
+/* Linha 8 */
+
 .linha8 {
-    align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
-/* 9 - baixo */
+
+/* Linha 9 */
+
 .linha9 {
-    align-items: flex-end;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-/* 10 - centralizado */
+
+/* Linha 10 */
+
 .linha10 {
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 
 /* Rodapé */
+
 footer {
-    height: 10vh;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    text-align: center;
     color: white;
-    font-size: 14px;
-
-    background: #080f20;
-}
-
-footer strong {
-    margin: 0 5px;
+    padding: 20px;
 }
