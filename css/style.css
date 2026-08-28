@@ -1,0 +1,22 @@
+body {
+background-color: black;
+
+}
+
+.container {
+    display: flex;  
+    width: 50px;
+    flex-direction: reverse;
+    height: 50px;
+    background-color: rgba(7, 243, 243, 0.8);
+    
+}
+.item {
+    width: 10px;
+    
+    height: 50px;
+    background-color: rgba(0, 4, 236, 0.8);
+    margin: 1px;
+    border: 1px solid black;
+    
+}
